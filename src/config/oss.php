@@ -12,8 +12,8 @@ return [
     | 获取地方，进入【管理控制台】>【AccessKeys】>【创建】
     |
     */
-    'OSS_ACCESS_ID' => 'p5ZAtiOGdK2Cb9bn',
-    'OSS_ACCESS_KEY' => 'rPwTBJn63YEn6sESUxGjZpDzzZ81wM',
+    'OSS_ACCESS_ID' => '',
+    'OSS_ACCESS_KEY' => '',
 
     /*
     |--------------------------------------------------------------------------

@@ -23,6 +23,8 @@ class AliossServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bindShared('oss', function() {
+            return $this->app->make('Shineforce\Alioss\Oss');
+        });
     }
 }
